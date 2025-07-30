@@ -1,8 +1,10 @@
 window.onload = function() {
-    const pi = 3.142;
 
-    function calcArea(r) {
-        console.log("The area is: " + pi * r * r);
+    var items = document.getElementsByTagName("li");
+
+    for (let x =0; x < items.length; x++) {
+        items[x].onclick = function() {
+            console.log(x);
+        }
     }
-    calcArea(5);
-}    
+}     
