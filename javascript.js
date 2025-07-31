@@ -1,10 +1,13 @@
 window.onload = function() {
+    // function log(num=10) {
+    //     console.log(num);
+    // }
+    // log(5);
 
-    var items = document.getElementsByTagName("li");
-
-    for (let x =0; x < items.length; x++) {
-        items[x].onclick = function() {
-            console.log(x);
-        }
+    function logNinja(name, belt, age) {
+        console.log("My name is " + name +
+                    " and my belt colour is " + belt +
+                    " and my age is " + age);
     }
+    logNinja("Shaun", "Orange", 66);
 }     
