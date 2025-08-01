@@ -1,7 +1,20 @@
 window.onload = function() {
     
-    function logNinja(name, age) {
-        console.log("my name is ${name} and my ${age}"); 
-    } 
-    logNinja("John", 25);
+    var youSay = "goodbye";
+
+    if (youSay.startsWith("goodbye")) {
+        var iSay = "hello";
+    }
+    console.log('you say ${youSay}, I say ${iSay}');
+
+    var text = "My name is John Doe";
+    console.log(text.includes("name"));
+
+
+    /* NEW STRING METHODS 
+    repeat
+    startsWith
+    endsWith
+    includes
+    */
 }    
